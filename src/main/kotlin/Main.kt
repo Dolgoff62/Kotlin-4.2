@@ -7,7 +7,7 @@ fun main() {
     val thirdPost = Post(text = "How", isFavorite = true)
     val fourthPost = Post(text = "You are", isFavorite = true)
 
-    WallService.add(firstPost)
+    WallService.add()
     WallService.add(secondPost)
     WallService.add(thirdPost)
     WallService.add(fourthPost)
