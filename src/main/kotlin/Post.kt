@@ -2,16 +2,16 @@ package ru.netology
 
 import java.util.*
 
-// для проверки работоспособности кода, большую часть полей закомментил
+// для быстрой проверки работоспособности кода, большую часть полей закомментил
 
 data class Post(
-    internal var id: Int = -1,
+    internal var id: Int = 0,
 //    val ownerId: Int,
 //    val fromId: Int,
 //    val createdBy: Int,
 //    val date: Int,
     val text: String,
-//    val replyOwnerId: Int,
+//    val replyOwner8Id: Int,
 //    val replyPostId: Int,
 //    val friendsOnly: Boolean,
 //    val comments: Objects,
